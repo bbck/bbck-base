@@ -4,12 +4,11 @@
   "author": "bbck",
   "summary": "Base module to apply on all agents.",
   "license": "Apache 2.0",
-  "source": "https://gitlab.bbck.net/bbck/bbck-base",
-  "project_page": "https://gitlab.bbck.net/bbck/bbck-base",
-  "issues_url": "https://gitlab.bbck.net/bbck/bbck-base/issues",
+  "source": "https://github.com/bbck/bbck-base",
+  "project_page": "https://github.com/bbck/bbck-base",
+  "issues_url": "https://github.com/bbck/bbck-base/issues",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
-    {"name":"puppetlabs-ntp","version_requirement":">= 3.3.0"}
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
   ]
 }
 
