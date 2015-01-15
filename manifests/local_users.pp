@@ -15,10 +15,10 @@ class base::local_users {
   ) {
     validate_string($title)
     validate_string($comment)
-    validate_re($uid, '^\d+$')
-    validate_re($gid, '^\d+$')
     validate_re($shell, '^/.*/.*')
-    validate_string($ssh_key)
+    if $uid { validate_re($uid, '^\d+$') }
+    if $gid { validate_re($gid, '^\d+$') }
+    if $ssh_key { validate_string($ssh_key) }
 
     user { $title:
       ensure     => $ensure,
