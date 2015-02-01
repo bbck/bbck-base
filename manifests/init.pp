@@ -37,4 +37,5 @@
 #
 class base {
   include base::local_users
+  include base::logging
 }
